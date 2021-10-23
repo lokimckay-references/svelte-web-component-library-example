@@ -1,4 +1,4 @@
-# Svelte Component Library Example
+# Svelte Web Component Library Example
 
 Minimal example demonstrating how to generate IIFE/UMD/ES custom component output from Svelte components
 
