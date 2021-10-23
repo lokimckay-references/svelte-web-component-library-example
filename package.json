@@ -1,0 +1,23 @@
+{
+  "name": "svelte-component-library-example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "run-p build:watch serve",
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w",
+    "serve": "browser-sync start --config .bsconfig.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "browser-sync": "^2.27.5",
+    "globby": "^12.0.2",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0"
+  }
+}
